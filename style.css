@@ -193,3 +193,53 @@ span{
     padding: 0px 50px;
 }
 /* booking-section ended */
+
+/* footer section started */
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding:20px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    padding:50px 0px;
+}
+.follow{
+    width: 50%;
+}
+.follow i{
+    font-size: 30px;
+    padding: 15px;
+}
+.email{
+    width:50%;
+}
+.email input[type=email]{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.subscribe{
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+    border:2px solid white;
+    padding:10px 25px;
+}
+
+.subscribe:hover{
+    background-color: black;
+    color:red;
+    border:2px solid red;
+}
+footer input{
+    font-size: 16px;
+    color: white;
+    padding:16px;
+    background-color: black;
+    border: 2px solid white;
+}
+
