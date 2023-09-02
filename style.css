@@ -13,18 +13,26 @@ span{
     color:red;
 }
 /* primary button style  */
-.primary-btn{
+.primary-btn {
+    border:none;
+}
+.primary-btn a{
     border:2px solid red;
     border-radius: 15px;
     padding:15px 25px;
     background-color: black;
     color: red;
     font-weight: 800;
+    text-decoration: none;
 }
-.primary-btn:hover{
+.primary-btn a:hover{
     border:2px solid white;
     color: white;
 }
+
+/* .primary-btn a:hover{
+    color:white;
+} */
 /* primary button style  */
 
 /* banner section style  */
@@ -64,7 +72,7 @@ span{
     color:white;
 }
 .camera-container{
-    background-image: url(/images/bg3.png);
+    background-image: url(/images/camera-bg.png);
     background-repeat: no-repeat;
     background-position:top center;
     background-size: 70%;
@@ -140,3 +148,48 @@ span{
 }
 
 /* feature-section ended */
+
+/* booking-section started */
+#booking-section{
+    background-color: black;
+    color:white;
+    padding: 100px 0px;
+}
+
+.booking-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px;
+    gap: 50px;
+}
+.phone-color{
+    padding: 20px;
+    width: 50%;
+    font-size: 25px;
+}
+.phone-color img{
+    width: 100%;
+}
+
+.phones{
+    padding:50px;
+    line-height: 50px;
+}
+.storage{
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+    border:2px solid white;
+    padding:10px 25px;
+}
+
+.storage:hover{
+    background-color: rgb(6, 9, 161);
+    color:white;
+}
+.sub-btn{
+    padding: 0px 50px;
+}
+/* booking-section ended */
